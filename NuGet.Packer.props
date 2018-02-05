@@ -12,6 +12,7 @@
     <!-- Manually update for major and minor version updates -->
     <MajorVersion Condition=" '$(MajorVersion)' == ''">1</MajorVersion>
     <MinorVersion Condition=" '$(MinorVersion)' == ''">0</MinorVersion>
+    <PatchVersion Condition=" '$(PatchVersion)' == ''">0</PatchVersion>
 
     <!-- Specify a value (e.g. "alpha", "beta", "rc", etc.) to create a pre-release package -->
     <PreReleaseVersion Condition=" '$(PreReleaseVersion)' == ''"></PreReleaseVersion>

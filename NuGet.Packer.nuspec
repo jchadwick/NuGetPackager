@@ -2,18 +2,18 @@
 <package >
   <metadata>
     <id>NuGet.Packer</id>
-    <version>1.2.1</version>
-    <authors>Jess Chadwick</authors>
+    <version>1.0.0</version>
+    <authors>mwimwi</authors>
     <owners>Jess Chadwick</owners>
-    <licenseUrl>https://raw.githubusercontent.com/jchadwick/NuGetPacker/master/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/jchadwick/NuGetPacker</projectUrl>
+    <licenseUrl>https://github.com/mwimwi/NuGet.Packer/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/mwimwi/NuGet.Packer</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Makes it incredibly easy to generate NuGet packages from any .NET solution, including projects with .nuspec files!</description>
-    <copyright>Copyright 2016</copyright>
+    <description>Generate NuGet packages from any .NET solution, including projects with .nuspec files!</description>
+    <copyright>Copyright 2018</copyright>
     <tags>NuGet</tags>
     <developmentDependency>true</developmentDependency>
     <dependencies>
-        <dependency id="NuGet.CommandLine" version="[3.5.0]" />
+        <dependency id="NuGet.CommandLine" version="[4.5.1]" />
     </dependencies>
   </metadata>
   <files>
